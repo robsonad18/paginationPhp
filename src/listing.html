@@ -1,0 +1,36 @@
+<div id="wrapper">
+    <div id="content-wrapper" class="d-flex flex-column">
+        <div id="content">
+            <div class="container-fluid">
+                <div data-table>
+                    <h1><strong>Listagem</strong></h1>
+                    <a class="btn btn-success">
+                        <i class="fas fa-balance-scale-right"></i> {{count}}
+                    </a>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-center"><i class="fas fa-hashtag"></i> ID</th>
+                                    <th scope="col" class="text-center"><i class="fas fa-book-reader"></i> Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {{trList}}
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- <div class="controls">
+                        <button class="btn btn-light first">Primeira</button>
+                        <button class="btn btn-light prev">Voltar</button>
+                        <div class="numbers">
+                            <button class="btn btn-light">1</button>
+                        </div>
+                        <button class="btn btn-light next">Avançar</button>
+                        <button class="btn btn-light last">Ultima</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
